@@ -18,11 +18,12 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 /*Navegación*/
 .logo img {
-  width: 100px !important;
+  width: 100px ;
   text-align: left;
   padding: 10px 0;
 }
@@ -89,6 +90,7 @@ h1 {
 .principal img {
   margin-top: 20px;
   width: 350px;
+  margin-left: 1rem;
 }
 
 .descripcion p {
