@@ -5,6 +5,7 @@ body {
 }
 
 /*Generales*/
+
 img {
   width: 90%;
 }
@@ -91,7 +92,6 @@ h1 {
 }
 
 .descripcion p {
-  width: 90%;
   line-height: 2;
   font-size: 16px;
 }

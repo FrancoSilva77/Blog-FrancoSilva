@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: 1fr;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+  .tarjetas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.contenido {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.contenido img{
+    height: 15rem;
+}
+
+.contenido h3,
+p{
+    padding: 1rem 0;
+    text-align: center;
+}
+
