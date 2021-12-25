@@ -1,0 +1,18 @@
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo .ph-youtube-logo{
+    font-size: 3rem;
+    color: red;
+    margin-left: 1rem;
+}
+
+.principal{
+    display: block;
+    text-align: center;
+}
