@@ -2,6 +2,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 /*Generales*/
@@ -103,6 +106,7 @@ h1 {
 }
 
 /*Footer*/
+
 .site-footer {
   width: 100%;
   height: 120px;
