@@ -24,7 +24,7 @@
 .libro {
   text-align: center;
   gap: 1.5rem;
-  margin: 0 1rem;
+  margin: 0.3rem 1rem;
 }
 
 .libro img {
@@ -32,6 +32,6 @@
 }
 
 .libro p {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   text-align: center;
 }

@@ -24,6 +24,21 @@ h1 {
   align-items: center;
 }
 
+.btn{
+  padding: .4rem 1rem;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.6rem;
+  border: solid 2px black;
+  margin-bottom: 1rem;
+}
+
+.btn:hover{
+  background-color: #000;
+  color: white;
+}
+
 /*Navegación*/
 .logo img {
   width: 100px ;
