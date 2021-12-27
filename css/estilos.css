@@ -134,3 +134,7 @@ h1 {
 .site-footer a i {
   font-size: 30px;
 }
+
+.site-footer a i:hover{
+  text-decoration: underline;
+}
