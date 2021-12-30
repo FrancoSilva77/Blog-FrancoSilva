@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo .ph-books{
+  font-size: 3rem;
+  color: brown;
+  margin-left: 1rem;
+}
+
 .contenido {
   display: grid;
   grid-template-columns: 1fr;
