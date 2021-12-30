@@ -85,12 +85,14 @@ h1 {
   padding-bottom: 15px;
   justify-content: center;
   transition: text-decoration .3s ease-in-out;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
   .nav a {
     display: inline-block;
     text-align: center;
+    margin: 1rem;
   }
 }
 
