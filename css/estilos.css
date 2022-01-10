@@ -26,14 +26,14 @@ h1 {
   width: 95%;
 }
 
-@media (min-width: 768px){
-  .contenedor{
+@media (min-width: 768px) {
+  .contenedor {
     margin: 0 auto;
   }
 }
 
-.btn{
-  padding: .4rem 1rem;
+.btn {
+  padding: 0.4rem 1rem;
   background-color: #fff;
   text-decoration: none;
   color: black;
@@ -42,14 +42,14 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #000;
   color: white;
 }
 
 /*Navegación*/
 .logo img {
-  width: 100px ;
+  width: 100px;
   text-align: left;
   padding: 10px 0;
 }
@@ -57,7 +57,8 @@ h1 {
 .logo {
   display: block;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  text-align: center;
+  text-align: left;
+  padding-left: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -68,12 +69,27 @@ h1 {
 }
 
 .nav {
-  padding-top: 15px;
+  display: none;
+}
+
+.nav-open{
+  display: block;
+  top: 100%;
+  right: 50%;
+  float: right;
+  padding-top: 21%;
+}
+
+@media (min-width: 577px){
+  .nav-open{
+    padding-top: 15%;
+  }
 }
 
 @media (min-width: 768px) {
   .nav {
-    padding-top: 50px;
+    padding-top: 30px;
+    display: initial;
   }
 }
 
@@ -84,8 +100,8 @@ h1 {
   color: #000;
   padding-bottom: 15px;
   justify-content: center;
-  transition: text-decoration .3s ease-in-out;
-  margin: 0;
+  transition: text-decoration 0.3s ease-in-out;
+  margin: 0 2rem;
 }
 
 @media (min-width: 768px) {
@@ -93,11 +109,31 @@ h1 {
     display: inline-block;
     text-align: center;
     margin: 1rem;
+    padding-left: 1rem;
   }
 }
 
 .nav a:hover {
   text-decoration: underline;
+}
+
+.menu-toggle{
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+}
+
+.hamburger {
+  font-size: 2rem;
+  float: right;
+  margin-top: 2.5rem;
+  padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
 }
 
 /* Principal */
@@ -145,9 +181,9 @@ h1 {
 }
 
 @media (min-width: 768px) {
-    .site-footer{
-        flex-direction: row;
-    }
+  .site-footer {
+    flex-direction: row;
+  }
 }
 
 .site-footer a {
@@ -160,6 +196,6 @@ h1 {
   font-size: 30px;
 }
 
-.site-footer a i:hover{
+.site-footer a i:hover {
   text-decoration: underline;
 }
